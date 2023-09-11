@@ -3,7 +3,7 @@ This is a bash script to install LAMP stack on Ubuntu based systems.
 
 > Clone the repository from git
 
-```git clone https://github.com/obuxim/octolamp.git```
+```git clone https://github.com/gelardo/octolamp.git```
 
 > Navigate to the repository directory
 
