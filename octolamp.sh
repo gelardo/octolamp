@@ -12,7 +12,7 @@ echo 'Uninstalling PHP'
 sudo apt-get purge -y php* &&
 read -p 'Enter the PHP Version you want to install: (e.g. 7.3)' phpversion
 echo 'Installing PHP 7.4' &&
-sudo apt-get install -y php$phpversion php$phpversion-common php$phpversion-fpm php$phpversion-mysql php$phpversion-pgsql php$phpversion-mbstring php$phpversion-xml php$phpversion-zip php$phpversion-gd libapache2-mod-php$phpversion &&
+sudo apt-get install -y php$phpversion php$phpversion-common php$phpversion-fpm php$phpversion-mysql php$phpversion-pgsql php$phpversion-mbstring php$phpversion-xml php$phpversion-zip php$phpversion-gd libapache2-mod-php$phpversion php-pear curl php$phpversion-dev php$phpversion-ftp php$phpversion-iconv php$phpversion-imap php$phpversion-intl php$phpversion-pdo php$phpversion-posix php$phpversion-soap php$phpversion-imagick  &&
 echo 'Configuring Apache' &&
 sudo a2enmod php$phpversion &&
 echo 'Restarting Apache' &&
